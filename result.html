@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Exam Result</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f0f4f8;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .result-container {
+      background: white;
+      padding: 30px 40px;
+      border-radius: 15px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      max-width: 400px;
+      width: 90%;
+    }
+
+    .result-container h2 {
+      margin-bottom: 15px;
+      font-size: 26px;
+      color: #2c3e50;
+    }
+
+    .score {
+      font-size: 48px;
+      font-weight: bold;
+      color: #27ae60;
+      margin-bottom: 15px;
+    }
+
+    .message {
+      font-size: 18px;
+      color: #555;
+      margin-bottom: 25px;
+    }
+
+    .home-btn {
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: #3498db;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    .home-btn:hover {
+      background-color: #2980b9;
+    }
+  </style>
+</head>
+<body>
+  <div class="result-container">
+    <h2>Exam Result</h2>
+    <div class="score">85%</div>
+    <div class="message">Great job! You passed the exam 🎉</div>
+    <a href="home.html" class="home-btn">Go to Home</a>
+  </div>
+</body>
+</html>
